@@ -1,0 +1,163 @@
+html{
+  overflow-x: hidden;
+}
+ /* Top section Start */
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+#top-section{
+  background-color: #f38181;
+  text-align: center;
+  color: white;
+  font-style: Montserrat;
+  font-size: 1.5rem;
+}
+
+.top-container{
+  padding: 5% 3% 0 3%;
+}
+h1{
+  font-family: Sacramento;
+  font-size: 6rem;
+  font-weight: bold;
+  font-style: oblique;
+}
+h3{
+  font-size: 3rem;
+  color: #e84545;
+}
+.top-images{
+  width: 90%;
+}
+.col{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.top-images-cloud{
+  width: 30%;
+  position: absolute;
+  z-index: +1;
+  left:1%;
+}
+.sun{
+  width: 30%;
+}
+.cloud-first{
+width: 70%;
+}
+
+ /* Top section Ends */
+#middle-section{
+  background-color: #fce38a;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.decor{
+  width: 90%;
+}
+.my-img{
+  width: 50%;
+}
+.ld{
+  text-align: left;
+  padding-left: 0;
+}
+.rd{
+  text-align: right;
+  padding-right: 1%;
+}
+.dl{
+  transform: rotate(-9deg);
+}
+.dr{
+  transform: rotate(24deg);
+}
+.p-mid{
+  font-family: Montserrat;
+  font-size: 1.3rem;
+  line-height: 2.5;
+  font-style: italic;
+  color:#194350;
+  font-weight: 500;
+}
+.lang-1{
+  margin-top: 1rem;
+  width: 30%;
+  margin-bottom: 4.5rem;
+}
+.lang-2{
+  width: 30%;
+  margin-bottom: 1.5rem;
+}
+.lang-3{
+  width: 20%;
+  margin-bottom: 0.5rem;
+}
+.lang-4{
+  width: 20%;
+  margin-bottom: 0.5rem;
+}
+.lang-5{
+  width: 20%;
+  margin-bottom: 2.5rem;
+}
+.computer{
+  width: 50%;
+}
+.tennis{
+  width: 40%;
+}
+.cap{
+  width: 15%;
+}
+.book{
+  width: 20%;
+}
+.boy{
+  width: 10%;
+}
+
+/* Lower section */
+#lower-section{
+  padding: 2%;
+  background-color: #95e1d3;
+}
+.new{
+  font-size:1.5rem;color:grey; text-align:center;
+}
+.new:hover{
+  color:black;
+}
+.copyright{
+  color:white; text-align:center;font-family:Merriweather;font-size:1.5rem;margin-top:1rem;font-style:italic;
+}
+@media (max-width:1028px) {
+  h1{
+     font-size: 3rem;
+  }
+  .tag-info{
+    font-size: 0.7rem;
+  }
+  h3{
+    font-size:1.5rem;
+  }
+  .p-mid{
+    font-size: 0.7rem;
+  }
+  h4{
+    font-size: 0.5rem;
+  }
+  .lang-1{
+    margin-bottom: 2rem;
+  }
+  .lang-5{
+    margin-bottom: 2rem;
+  }
+  table{
+    width: 30%;
+  }
+  .copyright{
+    font-size: 0.6rem;
+  }
+}
